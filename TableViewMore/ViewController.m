@@ -29,6 +29,7 @@
     for (int i = 0; i < 20; i++) {
         NSString *firse = [NSString stringWithFormat:@"%d",i];
         NSString *messgea = [NSString stringWithFormat:@"表示图%d详情展示，哈哈哈啊哈哈情展示，哈哈哈啊哈哈情展示，哈哈哈啊哈哈情展示，哈哈哈啊哈哈情展示，哈哈哈啊哈哈情展示，哈哈哈啊哈哈情展示，哈哈哈啊哈哈情展示，哈哈哈啊哈哈",i];
+        NSLog(@"asdjsajdsadjsadjsa");
          NSMutableDictionary *dic1 = [NSMutableDictionary dictionaryWithObjects:@[firse,messgea] forKeys:@[@"title",@"message"]];
         [newdataslit addObject:dic1];
 
